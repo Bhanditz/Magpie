@@ -1,6 +1,6 @@
 /**
  * A program to allow students to try out different String methods.
- * 
+ *
  * @author Laurie White
  * @version April 2012
  */
@@ -17,6 +17,8 @@ public class StringExplorer {
 		String lowerCase = sample.toLowerCase();
 		System.out.println("sample.toLowerCase() = " + lowerCase);
 		System.out.println("After toLowerCase(), sample = " + sample);
+		int notFoundPsn = sample.indexOf("slow");
+		System.out.println(notFoundPsn);
 
 		// Try other methods here:
 
