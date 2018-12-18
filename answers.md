@@ -1,0 +1,1 @@
+When more than one answer is in the list, it only gives you the response for the if statement that comes first.
